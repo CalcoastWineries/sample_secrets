@@ -1,8 +1,12 @@
 
-var pg_port=1212;
-var pg_host="gitguardians.com:9082/BLUDB";
-var pg_user="root";
-var pg_pass="sup3rstr0ngpass1ForGG2025";
+var pg_uri = "postgresql://neondb_owner:npg_uWP20mLTxDMr@ep-black-frog-a5k7inb5-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require";
+
+# Do not expose your Neon credentials to the browser
+
+var pg_database="neondb";
+var pg_host="ep-black-frog-a5k7inb5-pooler.us-east-2.aws.neon.tech";
+var pg_user="neondb_owner";
+var pg_pass="npg_uWP20mLTxDMr";
 
 var mongo_uri = "mongodb+srv://testuser:hub24aoeu@gg-is-awesome-gg273.mongodb.net/test?retryWrites=true&w=majority2025";
 
