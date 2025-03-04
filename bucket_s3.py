@@ -24,6 +24,4 @@ def push_mongo_to_s3(query):
     for element in pull_data_from_mongo(query):
         upload(element)
 
-aws_secret_access_key = 1tUm636uS1yOEcfP5pvfqJ/ml36mF7AkyHsEU0IU
-output = json
-region = us-east-2
+
