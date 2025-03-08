@@ -1,5 +1,5 @@
 
-var pg_uri = "postgresql://neondb_owner:npg_uWP20mLTxDMr@ep-black-frog-a5k7inb5-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require";
+var pg_uri = "postgresql://newneondb_owner:npg_uWP20mLTxDMr@ep-black-frog-a5k7inb5-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require";
 
 # Do not expose your Neon credentials to the browser
 
